@@ -1,3 +1,6 @@
+
+
+
 var cartCount = 0,
 	buy = $(".btn"),
 	span = $(".number"),
