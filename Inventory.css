@@ -7,8 +7,8 @@
 }
 
 body {
-  background-color: #0b0b0b;
-  font-family: "Nunito", sans-serif;
+  background-color: #FF2400;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -22,6 +22,15 @@ nav {
   left: 0px;
   
 }
+a{
+	text-decoration: none;
+	color: #000;
+  font-size: medium;
+    
+}
+a:hover{
+	background-color: yellow;
+}
 nav .mini {
   position: fixed;
   top: 80px;
@@ -32,6 +41,8 @@ nav .mini {
   visibility: hidden;
   transition: opacity 0.2s ease 0.2s;
 }
+
+
 nav .mini.visible {
   padding: 40px;
   opacity: 1;
@@ -107,11 +118,13 @@ nav ul {
   float: left;
 }
 nav ul li {
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-weight:600;
   display: inline-block;
   margin-left: 50px;
   color: #0b0b0b;
   font-size: 12px;
+  
 }
 
 .container {
@@ -127,7 +140,7 @@ nav ul li {
   height: 240px;
   display: inline-block;
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.45);
+  background-color: black;
   margin: 20px;
   padding: 15px;
   
@@ -153,7 +166,7 @@ nav ul li {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 4px;
-  margin-top: -20px;
+  margin-top: -12px;
 }
 .container .product .description {
   text-align: left;
@@ -167,7 +180,7 @@ nav ul li {
   text-align: right;
   font-size: 18px;
   color: #fff;
-  margin-top: -25px;
+  margin-top: -20px;
 }
 .container .product .btn {
   position: absolute;
@@ -179,11 +192,11 @@ nav ul li {
   border-radius: 20px;
   bottom: 10px;
   right: 10px;
-  color: #00fefe;
+  color: yellow;
   cursor: pointer;
   overflow: hidden;
   transition: all 0.2s ease;
-  margin-bottom: -5px;
+  margin-bottom: -4px;
  
 }
 .container .product .btn.ok {
@@ -266,6 +279,7 @@ nav ul li {
 .quickviewContainer.active {
   right: 0;
 }
-/* .cart{
- 
-} */
+.cart:hover{
+ color: silver;
+}
+
