@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #FF2400;
+  background-color: lightskyblue;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -124,6 +124,7 @@ nav ul li {
   margin-left: 50px;
   color: #0b0b0b;
   font-size: 12px;
+  padding: 20px, 0px, 10px;
   
 }
 
