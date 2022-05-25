@@ -12,7 +12,7 @@
     padding: 1rem;
     color: #212d31;
     font-family: 'Montserrat', sans-serif;
-    background-color: lightblue;
+    background-color: lightskyblue;
   }
   
   .contain {
@@ -184,7 +184,7 @@
       
   }
   a:hover{
-    background-color: yellow;
+    background-color:yellow;
   }
   nav .mini {
     position: fixed;
