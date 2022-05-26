@@ -22,7 +22,7 @@
     margin-right: auto;
     padding: 1em;
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   
   div.form {
@@ -212,16 +212,17 @@
   .fa {  
     padding: 20px;  
     align-content:flex-start;
-    margin: 5px 2px;  
+    margin: -5px -2px;  
     font-size: 30px;  
     width: 50px; 
     /* margin-top: -20px;  */
     position:relative;
-    top: -43px;
-    left: 800px;
+    top: -25px;
+    left: 100px;
    
    
-  }  
+  }
+  
   .fa-facebook {  
     background: #3B5998;  
     color: white;  
