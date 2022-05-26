@@ -64,8 +64,9 @@ form input {
   letter-spacing: 0.15rem;
   font-family: "Arimo";
   margin-top: 5px;
-  color: #8e2807;
+  color: black;
   border-radius: 4px;
+  background-color: yellow;
 }
 form label {
   text-transform: uppercase;

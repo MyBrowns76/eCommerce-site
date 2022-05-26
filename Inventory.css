@@ -189,11 +189,11 @@ nav ul li {
   font-weight: bold;
   float: right;
   padding: 10px;
-  border: 2px solid yellow;
+  border: 2px solid lightskyblue;
   border-radius: 20px;
   bottom: 10px;
   right: 10px;
-  color: yellow;
+  color: lightskyblue;
   cursor: pointer;
   overflow: hidden;
   transition: all 0.2s ease;
